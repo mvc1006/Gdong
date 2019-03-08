@@ -1,0 +1,176 @@
+.whatG{
+  width: 100%;
+  height:3.35rem;
+  /* background: darkcyan; */
+ 
+
+}
+.whatG>div{
+  width: 11.8rem;
+  height: 3rem;
+ 
+  margin: 0 auto;
+  position: relative;
+}
+.whatG>div>.con{
+  width: 11.8rem;
+  height: 4.4rem;
+  /* background: #ffaabb; */
+  background: #ffffff;
+  border: 0.01rem solid silver;
+  position: absolute;
+  bottom: -.4rem;
+  /* left: 3.7rem; */
+
+  margin: 0 auto;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.whatG>div>.con>div{
+  width: 7.28rem;
+  height: 3.5rem;
+  /* background: firebrick; */
+  margin-right: 1rem;
+}
+.whatG>div>.con>div>.miao{
+  font-size: 0.16rem;
+}
+.whatG>div>.con>img{
+  width: 2.48rem
+}
+.whatG>div>.con>div>p{
+  font-size: 0.24rem;
+}
+.whatG>div>.con>div>.miao{
+  width: 100%;
+  height: 2rem;
+  /* background: darkcyan; */
+  margin-top: .1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.whatG>div>.con>div>.miao>span{
+  
+  font-size: 0.16rem;
+  line-height: .35rem;
+  margin-top: .3rem;
+  text-indent: .4rem;
+}
+
+
+
+
+
+.Gpic{
+  width: 100%;
+  height: 8rem;
+  /* background: salmon; */
+}
+.Gpic>p{
+  width: 100%;
+  height: .87rem;
+  /* background: rebeccapurple; */
+  font-size: 0.24rem;
+  border-bottom: 0.01rem solid #dddddd;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 0.2rem;
+}
+.Gpic>div{
+  width: 11.8rem;
+  height: 4.95rem;
+  /* background: darkgray; */
+  margin: 0 auto;
+  margin-top:.5rem;
+  background-image:url('../images/aboutG_bd.png');
+  background-position: center 0;
+  background-size:  11.8rem  4.95rem;
+  background-repeat: no-repeat;
+  padding-top: 0.01rem;
+}
+
+.Gpic>div>.left,.cen{
+  width: 2.7rem;
+  height:4.3rem;
+  /* background: silver; */
+  border-radius: 10px;
+  margin-top: .3rem;
+  margin-left: .19rem;
+  float: left;
+}
+.Gpic>div>.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.Gpic>div>.cen{
+ 
+  float: left;
+}
+.Gpic>div>.right{
+  width: 5.66rem;
+  height: 4.3rem;
+  /* background: #dddddd; */
+  border-radius: 10px;
+  margin-top: .3rem;
+  margin-left: .19rem;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Gpic>div>.left>div{
+  width: 2.70rem;
+  height: 2.09rem;
+  border-radius: 10px;
+}
+.Gpic>div>.left>div>img{
+  width: 2.70rem;
+  height: 2.09rem;
+  border-radius: 10px;
+}
+
+.Gpic>div>.cen>img{
+  width: 2.7rem;
+  height:4.3rem;
+  border-radius: 10px;
+}
+.Gpic>div>.right>.top,.bottom{
+  width: 5.66rem;
+  height: 2.05rem;
+  /* background: darkcyan; */
+}
+.Gpic>div>.right>.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.Gpic>div>.right>.top>div{
+  width: 2.70rem;
+  height: 2.05rem;
+}
+.Gpic>div>.right>.top>div>img{
+  width: 2.70rem;
+  height: 2.05rem;
+  border-radius: 10px;
+}
+.Gpic>div>.right>.bottom{
+  width: 100%;
+  height: 2.06rem;
+}
+.Gpic>div>.right>.bottom>img{
+  width: 100%;
+  height: 2.06rem;
+  border-radius: 10px;
+}
+

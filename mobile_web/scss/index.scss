@@ -1,0 +1,399 @@
+@function rem($px){
+    @return $px/108px*1rem;
+  }
+
+
+  .wrap{
+     max-width: rem(1080px); 
+    //  height: rem(1000px);
+    height: auto;
+    //padding-bottom: rem(100px);
+     background: #d7e2e3;
+  
+     margin:0 auto;
+
+     //bdground
+     .bdground{
+         width: 100%;
+         height: rem(1480px);
+         background-image: url(../images/bdground.png);
+         background-repeat: no-repeat;
+         background-size: contain;
+       //background: rebeccapurple;
+       padding-top: rem(1px);
+
+       
+         .top{
+           width: rem(1008px);
+           height: rem(145px);
+           background:transparent;
+           margin: 0 auto;
+           margin-top: rem(85px);
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+
+           i{
+             font-size: rem(70px);
+             color: #ffffff;
+             align-self: flex-start;
+
+           }
+
+           img{
+             width: rem(145px);
+             height: rem(145px);
+              border-radius: rem(15px);
+             margin-right: rem(60px);
+           }
+         }
+
+
+     //nav
+
+       .navbox{
+         width: rem(280px);
+         height: rem(420px);
+          //background: darkgreen;
+         margin-top: rem(-50px);
+         .nav{
+           width: rem(210px);
+           height: rem(350px);
+           background: rgba(0,0,0,.4);
+           border-radius: rem(15px);
+           margin-left: rem(35px);
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           align-self: center;
+           margin-top: rem(-50px);
+           li{
+             width: 100%;
+             height: rem(100px);
+             border-radius: 15px;
+
+             background: rgba(0,0,0,.6);
+             text-align: center;
+             color: #ffffff;
+             font-size: rem(42px);
+             line-height: rem(100px);
+           }
+         }
+       }
+
+
+     //  title
+       .title{
+         width: rem(760px);
+         height: rem(280px);
+         //background: aquamarine;
+         margin: 0 auto;
+         z-index: -9999;
+         margin-top: rem(-54px);
+         //text-align: center;
+         display: flex;
+         flex-direction: column;
+         align-self: center;
+         justify-content: space-between;
+
+         p{
+           width: 100%;
+           text-align: center;
+           font-size: rem(70px);
+           color: #ffffff;
+           font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+         }
+         p:nth-child(2){
+           margin-top: rem(20px);
+         }
+         p:last-child{
+           font-size: rem(32px);
+         }
+       }
+
+
+     //  download
+
+       .download{
+         width: rem(430px);
+         height: rem(330px);
+         //background: darkred;
+         margin: 0 auto;
+         margin-top: rem(110px);
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+
+         img{
+           width: 100%;
+           height: rem(120px);
+         }
+       }
+
+     }
+
+
+    //aboutG
+    .aboutG{
+      width: rem(1080px);
+      height: rem(1176px);
+      background: white;
+      margin-top: rem(20px);
+
+      .more{
+        width: rem(1008px);
+        height: rem(137px);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: rem(50px);
+
+      }
+
+      .imgList{
+        width: rem(1008px);
+        height: rem(1016px);
+        //background: aquamarine;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .top{
+          width: 100%;
+          height: rem(500px);
+          //background: darkcyan;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          div{
+            width: rem(500px);
+            height: rem(500px);
+            //background: saddlebrown;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            p{
+              width: 100%;
+              height: rem(73px);
+              background: rgba(0,0,0,.8);
+              text-align: center;
+              line-height: rem(73px);
+              color: white;
+              font-size: rem(36px);
+            }
+          }
+        }
+        .bottom{
+          width: 100%;
+          height: rem(500px);
+          //background: darkred;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          div{
+            width: rem(500px);
+            height: rem(500px);
+            //background: saddlebrown;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            p{
+              width: 100%;
+              height: rem(73px);
+              background: rgba(0,0,0,.8);
+              text-align: center;
+              line-height: rem(73px);
+              color: white;
+              font-size: rem(36px);
+            }
+          }
+        }
+
+
+      }
+    }
+
+
+  //  diary
+    .diary{
+      width: 100%;
+      height: rem(580px);
+      background: white;
+      //background: #d43f3a;
+      margin-top: rem(20px);
+
+      .more{
+        width: rem(1008px);
+        height: rem(137px);
+        //background: saddlebrown;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: rem(50px);
+
+      }
+
+    //  banner
+      .banner{
+        width: 100%;
+        height: rem(550px);
+        //background: darkred;
+
+        .swiper-slide{
+          width: rem(690px);
+          height: rem(400px);
+          //background: darkgray;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content:center;
+          margin-left: rem(50px);
+
+          .img{
+            width: 100%;
+            height: rem(285px);
+            img{
+              width: 100%;
+              max-width: 100%;
+            }
+          }
+          .discrib{
+            width: 100%;
+            height: rem(90px);
+            //background: darkgreen;
+            //padding: 0 rem(10px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: rem(38px);
+            color: #848484;
+            //display: -webkit-box;
+            //-webkit-box-orient: vertical;
+            //-webkit-line-clamp: 2;
+            //overflow: hidden;
+
+            //p:first-child{
+            //  font-size: rem(36px);
+            //  margin-top: rem(10px);
+            //  //line-height: rem(px);
+            //
+            //}
+            //p:last-child{
+              //text-align: center;
+              //font-size: rem(30px);
+
+              //line-height: rem(40px);
+              //margin-top: rem(20px);
+            //}
+          }
+        }
+      }
+    }
+
+
+  //  advantages
+
+    .advantages{
+      width: 100%;
+      height: rem(684px);
+      margin-top: rem(20px);
+      background: white;
+
+      .more{
+        width: rem(1008px);
+        height: rem(137px);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: rem(50px);
+
+      }
+
+      .img{
+        width: rem(960px);
+        height: rem(510px);
+        margin: 0 auto;
+
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+
+  //  contact
+    .contact{
+      width: 100%;
+      height: rem(615px);
+      background: white;
+      margin-top: rem(20px);
+
+      .more{
+        width: rem(1008px);
+        height: rem(137px);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: rem(50px);
+
+      }
+
+      .erweima{
+        width: rem(1008px);
+        height: rem(333px);
+        background: #30333a;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .main{
+          width: rem(500px);
+          height: rem(275px);
+          //background: darkgreen;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          div{
+            width: rem(195px);
+            img{
+              width: 100%;
+              max-width: 100%;
+            }
+          }
+
+        }
+      }
+
+      .copyright{
+        width: rem(1008px);
+        height: rem(145px);
+        //background: darkgoldenrod;
+        margin: 0 auto;
+        font-size: rem(30px);
+
+
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+          text-align: center;
+          line-height: rem(50px);
+          color: #999999;
+        }
+      }
+    }
+  }
+  

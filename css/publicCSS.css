@@ -1,0 +1,129 @@
+.header{
+    width: 100%;
+    height: 0.8rem;
+    /* background: #ddd; */
+  
+  }
+  .header>div{
+      width: 11.8rem;
+      height: 0.8rem;
+      background: #ffffff;
+      margin: 0 auto;
+      /* display: flex;
+      align-items: center; */
+      /* justify-content:space-between; */
+  }
+  .header>div>img{
+    width: 0.7rem;
+    float: left;
+    margin-top: 0.05rem;
+  }
+  .header>div>div{
+    float: right;
+    margin-top:-.42rem;
+  }
+  .header>div>div>a{
+    width: 1.3rem;
+    height: .8rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.18rem;
+    text-decoration: none;
+    color: #333
+  }
+  
+  
+  .banner{
+    width: 100%;
+    height: 8.51rem;
+  }
+  
+  .swiper-container{
+    width: 100%;
+    height: 8.51rem;
+    min-width: 11.8rem;
+    margin: 0 auto;
+  }
+  .swiper-slide{
+    width: 100%;
+    min-width: 11.8rem;
+    height: 8.51rem;
+  
+    margin: 0 auto;
+    background-size:19.2rem 8.51rem;
+    background-position: center 0;
+    background-repeat: no-repeat;
+  }
+
+
+
+  
+.footer{
+    width: 100%;
+    height: 5.3rem;
+    background: #30333a;
+  }
+  .footer>.lianxi{
+    width: 100%;
+    height: .8rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.01rem solid #dddddd;
+    /* background: rebeccapurple; */
+  }
+  .footer>.lianxi>span{
+    width: 11.8rem;
+    height: .8rem;
+    /* background: rebeccapurple; */
+    margin: 0 auto;
+    font-size: 0.24rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-indent: 1.4rem;
+   
+  }
+  .footer>div{
+    width: 11.8rem;
+    height: 3.6rem;
+    /* background: rebeccapurple; */
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .footer>div>img{
+   
+    width: 4.4rem;
+    height: 5.94rem;
+   position: absolute;
+    bottom: -.7rem;
+    right: 0;
+  }
+  .footer>div>div{
+    width: 3.81rem;
+    height: 2.13rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: .5rem;
+  }
+  .footer>div>div>img{
+    width: 1.46rem;
+    height: 2.03rem;
+  }
+  
+  .footer>.footerTitle{
+    width: 100%;
+    height: 0.65rem;
+    background: #ffffff;
+    font-size: 0.14rem;
+    color: #333;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-indent: 0;
+   margin-top: 0.05rem;
+  }
+  

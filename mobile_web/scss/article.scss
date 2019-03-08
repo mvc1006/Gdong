@@ -1,0 +1,186 @@
+@function rem($px){
+  @return $px/108px*1rem;
+}
+
+
+.wrap{
+  width:rem(1080px);
+  //height: auto;
+  //height: rem(1000px);
+  //padding-bottom: rem(100px);
+  background: #d7e2e3;
+  margin: 0 auto;
+  position: relative;
+
+
+  .header{
+    width: 100%;
+    height: rem(183px);
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      width: rem(115px);
+      height: rem(110px);
+      //background: darkgreen;
+      margin-left: rem(36px);
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .download{
+      width: rem(260px);
+      height: rem(90px);
+      border-radius: rem(50px);
+      border: rem(2px) solid #f08227;
+      color: #f08227;
+      cursor: pointer;
+      font-size: rem(40px);
+      margin-right: rem(36px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+  }
+
+  //  banner
+
+  .banner{
+    width: 100%;
+    height: rem(480px);
+    //background: darkcyan;
+    margin-top: rem(183px);
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  //ariticle
+
+  .aritcle{
+    width: 100%;
+    //height: rem(2910px);
+    height: auto;
+    padding-bottom: rem(32px);
+    background: #ffffff;
+    padding-top: rem(1px);
+    margin-top: rem(20px);
+    margin-bottom: rem(20px);
+    .main{
+      width: rem(1008px);
+      height: auto;
+      margin: 0 auto;
+      margin-top: rem(38px);
+      //background: darkkhaki;
+
+      .articleImg{
+        width: 100%;
+        height: rem(504px);
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+
+      }
+
+      .essay{
+        width: 100%;
+        height: auto;
+        //background: darkcyan;
+        margin-top: rem(44px);
+
+        h1{
+          font-size: rem(46px);
+
+        }
+        p{
+          font-size: rem(38px);
+          line-height: rem(55px);
+          margin-top: rem(32px);
+          text-indent: rem(50px);
+          color: #666666;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+  //  contact
+  .contact{
+    width: 100%;
+    height: rem(615px);
+    background: white;
+    //margin-top: rem(35px);
+
+    .more{
+      width: rem(1008px);
+      height: rem(137px);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: rem(50px);
+
+    }
+
+    .erweima{
+      width: rem(1008px);
+      height: rem(333px);
+      background: #30333a;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .main{
+        width: rem(500px);
+        height: rem(275px);
+        //background: darkgreen;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+          width: rem(195px);
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+
+      }
+    }
+
+    .copyright{
+      width: rem(1008px);
+      height: rem(145px);
+      //background: darkgoldenrod;
+      margin: 0 auto;
+      font-size: rem(30px);
+
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p{
+        text-align: center;
+        line-height: rem(50px);
+        color: #999999;
+      }
+    }
+  }
+}

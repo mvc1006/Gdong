@@ -1,0 +1,191 @@
+@function rem($px){
+  @return $px/108px*1rem;
+}
+
+
+.wrap{
+  max-width: rem(1080px);
+  //  height: rem(1000px);
+  height: auto;
+  //padding-bottom: rem(100px);
+  background: #d7e2e3;
+
+  margin:0 auto;
+
+
+  .header{
+    width: 100%;
+    height: rem(183px);
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      width: rem(115px);
+      height: rem(110px);
+      //background: darkgreen;
+      margin-left: rem(36px);
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .download{
+      width: rem(260px);
+      height: rem(90px);
+      border-radius: rem(50px);
+      border: rem(2px) solid #f08227;
+      color: #f08227;
+      cursor: pointer;
+      font-size: rem(40px);
+      margin-right: rem(36px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+  }
+
+
+  .bdground{
+    width: 100%;
+    height: rem(480px);
+    //background: darkcyan;
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+  // base konwlegable
+  .diary{
+    width: 100%;
+    height: rem(530px);
+    background: white;
+    margin-top: rem(20px);
+
+    .more{
+      width: rem(1008px);
+      height: rem(117px);
+      //background: saddlebrown;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: rem(50px);
+
+    }
+
+    //  banner
+    .banner{
+      width: 100%;
+      height: rem(370px);
+      //background: darkred;
+
+      .swiper-slide{
+        width: rem(690px);
+        //height: rem(370px);
+        //background: darkgray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        margin-left: rem(50px);
+
+        .img{
+          width: 100%;
+          height: rem(305px);
+          margin-bottom: rem(10px);
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+        .discrib{
+          width: 100%;
+          height: rem(61px);
+          //background: darkgreen;
+          //margin-top: rem(-30px);
+          //padding: 0 rem(10px);
+
+
+          p{
+            font-size: rem(36px);
+            text-align: center;
+            //line-height: rem(px);
+
+          }
+        }
+      }
+    }
+  }
+
+  //  contact
+  .contact{
+    width: 100%;
+    height: rem(615px);
+    background: white;
+    margin-top: rem(20px);
+
+    .more{
+      width: rem(1008px);
+      height: rem(137px);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: rem(50px);
+
+    }
+
+    .erweima{
+      width: rem(1008px);
+      height: rem(333px);
+      background: #30333a;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .main{
+        width: rem(500px);
+        height: rem(275px);
+        //background: darkgreen;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+          width: rem(195px);
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+
+      }
+    }
+
+    .copyright{
+      width: rem(1008px);
+      height: rem(145px);
+      //background: darkgoldenrod;
+      margin: 0 auto;
+      font-size: rem(30px);
+
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p{
+        text-align: center;
+        line-height: rem(50px);
+        color: #999999;
+      }
+    }
+  }
+}

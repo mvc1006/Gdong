@@ -1,0 +1,230 @@
+@function rem($px){
+  @return $px/108px*1rem;
+}
+
+
+.wrap{
+  width:rem(1080px);
+  //height: auto;
+  //height: rem(1000px);
+  //padding-bottom: rem(100px);
+  background: #d7e2e3;
+  margin: 0 auto;
+
+  .header{
+    width: 100%;
+    height: rem(183px);
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      width: rem(115px);
+      height: rem(110px);
+      //background: darkgreen;
+      margin-left: rem(36px);
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .download{
+      width: rem(260px);
+      height: rem(90px);
+      border-radius: rem(50px);
+      border: rem(2px) solid #f08227;
+      color: #f08227;
+      cursor: pointer;
+      font-size: rem(40px);
+      margin-right: rem(36px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+  }
+
+//  banner
+
+  .banner{
+    width: 100%;
+    height: rem(480px);
+    //background: darkcyan;
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+//  info{
+  .info{
+    width: 100%;
+    height: rem(622px);
+    background: white;
+    margin-top: rem(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cen{
+      width: rem(1008px);
+      height: rem(544px);
+      //background: darkgreen;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      //overflow: hidden;
+      .img{
+        width: rem(307px);
+        height: 100%;
+       img{
+         width: 100%;
+         max-width: 100%;
+       }
+      }
+
+      .aritcle{
+        width: rem(670px);
+        height: rem(396px);
+        //background: darkkhaki;
+        align-self: flex-start;
+
+
+        h1{
+          font-size: rem(40px);
+          text-align: center;
+
+        }
+        p{
+          font-size: rem(26px);
+          line-height: rem(42px);
+          text-indent: rem(50px);
+          margin-top: rem(40px);
+        }
+        p:nth-child(2){
+          margin-top: rem(40px);
+        }
+
+      }
+    }
+  }
+
+//  pic
+
+  .picbox{
+    width: 100%;
+    background: white;
+    padding-bottom: rem(0px);
+    p{
+      width: rem(1008px);
+      height: rem(100px);
+      //background: darkcyan;
+      line-height: rem(135px);
+      margin: 0 auto;
+      font-size: rem(50px);
+      margin-top: rem(20px);
+    }
+    .pic{
+      width: rem(1008px);
+      height: rem(1542px);
+      background: #d7e2e3;
+      margin: 0 auto;
+      margin-top: rem(35px);
+      //padding-top: rem(1px);
+
+
+      .imgList{
+        width: rem(1008px);
+        height: rem(510px);
+        //background: darkgreen;
+        //margin-top: rem(20px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .img{
+          width: rem(495px);
+          //height: rem(443px);
+          //background: darkgoldenrod;
+          img{
+            width: 100%;
+            max-width:100%;
+          }
+        }
+      }
+      .imgList:first-child{
+        margin-top: rem(0px);
+      }
+
+    }
+  }
+
+
+  //  contact
+  .contact{
+    width: 100%;
+    height: rem(615px);
+    background: white;
+    //margin-top: rem(35px);
+
+    .more{
+      width: rem(1008px);
+      height: rem(137px);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: rem(50px);
+
+    }
+
+    .erweima{
+      width: rem(1008px);
+      height: rem(333px);
+      background: #30333a;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .main{
+        width: rem(500px);
+        height: rem(275px);
+        //background: darkgreen;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+          width: rem(195px);
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+
+      }
+    }
+
+    .copyright{
+      width: rem(1008px);
+      height: rem(145px);
+      //background: darkgoldenrod;
+      margin: 0 auto;
+      font-size: rem(30px);
+
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p{
+        text-align: center;
+        line-height: rem(50px);
+        color: #999999;
+      }
+    }
+  }
+}
